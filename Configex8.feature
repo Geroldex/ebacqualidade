@@ -12,10 +12,7 @@ Dado que sou um cliente da EBAC-SHOP
 
 Cenário: Configurar Produto antes de Inserir no Carrinho
 
-Quando seleciono as opções de <cor>, 
-E <tamanho> 
-E <quantidade> 
-E clico no botão "Adicionar ao Carrinho"
+Quando seleciono as opções de <cor>, <tamanho> e<quantidade>   e clico no botão "Adicionar ao Carrinho"
 Então o produto deve ser adicionado ao meu carrinho
 
 
@@ -33,8 +30,6 @@ Cenário: Restringir Quantidade de Produtos por Venda
 
 
 Cenário: Limpar Configurações do Produto
-    Quando estou na página de um produto específico
-    E já configurei as opções de cor, tamanho e quantidade
-    Quando clico no botão "Limpar"
+    Quando estou na página de um produto específico e já configurei as opções de cor, tamanho e quantidade E clico no botão "Limpar"
     Então todas as seleções devem voltar ao estado original
 

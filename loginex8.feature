@@ -10,18 +10,16 @@ Dado que eu acesse a página de autenticação da EBAC-SHOP
 
 Cenário: Autenticação Válida
 
-Quando eu digitar o usuário "joao@ebac.com.br"
-E a senha "senha@123"
+Quando eu digitar o usuário "joao@ebac.com.br" e a senha "senha@123"
 Então deve exibir direcionar o usuário para a tela de checkout
 
 Cenário: Senha Inválida
 
-Quando eu digitar o usuário "joao@ebac.com.br"
-E a senha "xxxyyzzz"
+Quando eu digitar o usuário "joao@ebac.com.br" e a senha "xxxyyzzz"
 Então deve exibir uma mensagem de alerta  "usuário/senha inválida"
 
 Cenário: Usuário inválido
 
 Quando eu digitar o usuário "fulaninho@ebac.com.br"
-E a senha "senha@123"
+e a senha "senha@123"
 Então deve exibir uma mensagem de alerta  "usuário/senha inválida"
